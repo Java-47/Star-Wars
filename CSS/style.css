@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Poller+One&family=Raleway:wght@100;500;600;800&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Poller One', cursive;
+    background-image: url('../Images/sky.jpg');
+    color: goldenrod;
+}
+header{
+    background-color:rgba(60,69,67,0.6);
+    border-radius: 15px 15px 0 0;
+}
+nav > ul{
+    list-style: none;
+    position: fixed;
+    top: 5px;
+}
+h1{
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+nav li{
+    border: 2px solid black;
+    display: inline;
+    border-radius: 5px;
+    background-color: rgba(204, 3, 35, 0.5);
+    cursor: pointer;
+}
+footer
+{
+    background-color:rgba(60,69,67,0.6);
+    border-radius: 0 0 15px 15px;
+    height: 4em;
+}
+.button{
+    border-radius: 5px;
+    background-color: rgba(204, 3, 35, 0.5);
+    border:2px solid black;
+    width: fit-content;
+    height: 2em;
+    cursor: pointer;
+    
+    position: relative;
+    top:1em;
+    left: 352px;
+    
+}
+.button > p{
+    padding-top: 0.45em;
+}
