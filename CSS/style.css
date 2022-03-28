@@ -34,6 +34,7 @@ footer
     background-color:rgba(60,69,67,0.6);
     border-radius: 0 0 15px 15px;
     height: 4em;
+    clear: both;
 }
 .button{
     border-radius: 5px;
@@ -47,7 +48,49 @@ footer
     top:1em;
     left: 352px;
     
+    
 }
 .button > p{
     padding-top: 0.45em;
+    font-size: 0.8em;
+}
+.email {
+    font-size: 1.2em;
+    color: black;
+    font-variant: small-caps;
+}
+
+.left
+{
+    float:left;
+    margin: 5px 15px 0 5px;
+}
+.right{
+    float:right;
+    margin: 5px 5px 0;
+}
+.right img{
+    width: 160px;
+    box-shadow: none;
+}
+
+.farGalaxy {
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    line-height: 1.6;
+    text-align: justify;
+}
+.right table{
+    border: 1px goldenrod solid;
+    border-radius: 0 0 15px 15px;
+}
+.bottomLeft{
+border-bottom-left-radius: 15px ;
+}
+.bottomRight
+{
+    border-bottom-right-radius: 15px;
+}
+img{
+    box-shadow: rgba(60,69,67,0.6) 10px 10px;
 }
