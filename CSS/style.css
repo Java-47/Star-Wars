@@ -69,7 +69,7 @@ footer
     float:right;
     margin: 5px 5px 0;
 }
-.right img{
+.box-right-images img{
     width: 160px;
     box-shadow: none;
 }
@@ -80,10 +80,7 @@ footer
     line-height: 1.6;
     text-align: justify;
 }
-.right table{
-    border: 1px goldenrod solid;
-    border-radius: 0 0 15px 15px;
-}
+
 .bottomLeft{
 border-bottom-left-radius: 15px ;
 }
@@ -93,4 +90,19 @@ border-bottom-left-radius: 15px ;
 }
 img{
     box-shadow: rgba(60,69,67,0.6) 10px 10px;
+}
+
+.box-right-images{
+    float: right;
+    display: flex;
+    height: 360px;
+    width: 480px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    border: 1px goldenrod solid;
+    border-radius: 0 0 15px 15px;
+}
+.dreamteam{
+margin-left: 70vw;
 }
